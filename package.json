@@ -1,0 +1,10 @@
+{
+  "name": "ai-powered-test-case-generator",
+  "private": true,
+  "scripts": {
+    "test:server": "npm --prefix server test",
+    "test:client": "npm --prefix client test",
+    "test:e2e": "npm --prefix e2e test",
+    "test:all": "npm run test:server && npm run test:client && npm run test:e2e"
+  }
+}
